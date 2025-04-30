@@ -54,7 +54,7 @@ pip install pygame
 Pour lancer le jeu, exécutez simplement :
 
 ```bash
-python start.py
+python3 start.py
 ```
 
 Un menu interactif apparaîtra et vous permettra de sélectionner le mode de jeu (Joueur unique, Joueur vs Bot).
@@ -83,9 +83,6 @@ Editez ces paramètres dans le fichier `config.yaml` pour les personnaliser.
 
 ![Player vs Bot](screenshots/player-vs-bot.png)
 
-## Contributeurs
-
-- Yassine Elaa
 
 ## Licence
 
