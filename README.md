@@ -54,29 +54,38 @@ pip install pygame
 Pour lancer le jeu, exécutez simplement :
 
 ```bash
-python3 start.py
+python start.py
 ```
 
 Un menu interactif apparaîtra et vous permettra de sélectionner le mode de jeu (Joueur unique, Joueur vs Bot).
 
 ### Commandes du jeu
 
-| Action                   | Touche clavier |            |
-| ------------------------ | -------------- | ---------- |
-| Déplacements             | Flèches        |            |
-| Réinitialiser le niveau  |                | **Escape** |
-| Solveur automatique      | **S**          |            |
-| Solveur enregistré       | **=**          |            |
-| Enregistrer une solution | **R**          |            |
-| Entrer des déplacements  | **I**          |            |
-| Démarrer un combat       | **F**          |            |
+| Action                   | Touche clavier |
+| ------------------------ | -------------- |
+| Déplacements             | Flèches        |
+| Réinitialiser le niveau  | **Escape**     |
+| Solveur automatique      | **S**          |
+| Solveur enregistré       | **=**          |
+| Enregistrer une solution | **R**          |
+| Entrer des déplacements  | **I**          |
+| Démarrer un combat       | **F**          |
 
 Editez ces paramètres dans le fichier `config.yaml` pour les personnaliser.
 
 ## Captures d'écran
 
-Des captures d'écran sont disponibles dans le dossier du projet (`screen.png`).
+### Mode joueur unique
 
+![Single Player](screenshots/single-player.png)
+
+### Mode joueur vs Bot
+
+![Player vs Bot](screenshots/player-vs-bot.png)
+
+## Contributeurs
+
+- Yassine Elaa
 
 ## Licence
 
