@@ -6,7 +6,7 @@ SOKOBAN est une implémentation du célèbre jeu de puzzle Sokoban, développé 
 
 Ce projet propose une interface graphique intuitive réalisée avec Python et utilisant des images SVG pour une représentation claire et esthétique des éléments du jeu (personnages, murs, objets à déplacer).
 
-##Algorithme de résolution
+## Algorithme de résolution
 
 Le solveur automatique implémenté dans solver.py utilise une recherche en profondeur (Depth-First Search, DFS) couplée à une détection de deadlocks (positions bloquées des caisses). Concrètement :
 
