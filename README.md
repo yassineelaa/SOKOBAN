@@ -10,13 +10,13 @@ Ce projet propose une interface graphique intuitive réalisée avec Python et ut
 
 Le solveur automatique implémenté dans solver.py utilise une recherche en profondeur (Depth-First Search, DFS) couplée à une détection de deadlocks (positions bloquées des caisses). Concrètement :
 
-On explore récursivement tous les déplacements possibles du joueur.
+- On explore récursivement tous les déplacements possibles du joueur.
 
-À chaque état (grille + position du joueur), on vérifie si une caisse se trouve dans une configuration bloquante (coin, murs adjacents, autres caisses).
+- À chaque état (grille + position du joueur), on vérifie si une caisse se trouve dans une configuration bloquante (coin, murs adjacents, autres caisses).
 
-On évite les états déjà visités pour ne pas répéter les sous-arbres.
+- On évite les états déjà visités pour ne pas répéter les sous-arbres.
 
-Si l’état courant atteint la condition de succès (toutes les caisses sur leurs cibles), on retourne la séquence de déplacements.
+- Si l’état courant atteint la condition de succès (toutes les caisses sur leurs cibles), on retourne la séquence de déplacements.
 
 Cette approche garantit de trouver une solution (si elle existe), mais n’est pas optimisée en mémoire ni toujours en nombre minimal de poussées. Pour des résolutions plus efficaces, on pourrait envisager un algorithme IDA* (Iterative Deepening A*) avec une heuristique admissible (par exemple la somme des distances de Manhattan des caisses vers leurs cibles).
 
