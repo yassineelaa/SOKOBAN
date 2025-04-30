@@ -1,0 +1,19 @@
+title: "Sokoban"
+SQUARE_SIZE: 40
+wallpaper: [0, 0, 0]
+levels_file: levels
+pygame_delay: 90
+imgs: {
+  wall: "wall.svg",
+  case: "black-forest.svg",
+  target: "open-mouth.svg",
+  player: "oven.svg"
+}
+keys: {
+  reset: [K_ESCAPE, Escape],
+  autosolve: [K_s, S],
+  savedsolve: [K_EQUALS, "="],
+  record: [K_r, R],
+  input: [K_i, I],
+  fight: [K_f, F]
+}

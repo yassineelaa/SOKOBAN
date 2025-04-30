@@ -1,0 +1,5 @@
+https://rosettacode.org/wiki/Sokoban
+http://sokoban.dk/wp-content/uploads/2016/02/Cas-du-Sokoban.pdf
+http://liacs.leidenuniv.nl/~takesfw/pdf/sokoban.pdf
+http://www-connex.lip6.fr/~baskiotisn/index.php/2016/10/19/sokoban-solveur/
+https://khayyam.developpez.com/articles/algo/astar/
