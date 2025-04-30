@@ -26,7 +26,7 @@ Ce projet propose une interface graphique intuitive réalisée avec Python et ut
 ## Prérequis
 
 - Python 3.x
-- Modules Python requis (dans `requirements.txt` si disponible, sinon les modules standards)
+- Modules Python requis (`pygame`, autres dans `requirements.txt` si disponible)
 
 ## Installation
 
@@ -43,23 +43,40 @@ Installez les éventuelles dépendances (si un fichier requirements.txt est four
 pip install -r requirements.txt
 ```
 
+Si pygame n'est pas inclus :
+
+```bash
+pip install pygame
+```
+
 ## Utilisation
 
 Pour lancer le jeu, exécutez simplement :
 
 ```bash
-python main.py
+python3 start.py
 ```
 
 Un menu interactif apparaîtra et vous permettra de sélectionner le mode de jeu (Joueur unique, Joueur vs Bot).
+
+### Commandes du jeu
+
+| Action                   | Touche clavier |            |
+| ------------------------ | -------------- | ---------- |
+| Déplacements             | Flèches        |            |
+| Réinitialiser le niveau  |                | **Escape** |
+| Solveur automatique      | **S**          |            |
+| Solveur enregistré       | **=**          |            |
+| Enregistrer une solution | **R**          |            |
+| Entrer des déplacements  | **I**          |            |
+| Démarrer un combat       | **F**          |            |
+
+Editez ces paramètres dans le fichier `config.yaml` pour les personnaliser.
 
 ## Captures d'écran
 
 Des captures d'écran sont disponibles dans le dossier du projet (`screen.png`).
 
-## Contributeurs
-
-- Yassine Elaa
 
 ## Licence
 
